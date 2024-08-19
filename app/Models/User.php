@@ -38,7 +38,7 @@ class User extends Authenticatable
      */
     public function talks(): HasMany
     {
-        return $this->hasMany(User::class);
+        return $this->hasMany(Talk::class);
     }
 
     /**
